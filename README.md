@@ -14,18 +14,18 @@ The important files for integration are :
   **Usage Instruction:**
   
   a. Create Page Object:
-      Set current_page_reference = Browser("name:=Browser Name").Page("title:=Page Title")
+      ```Set current_page_reference = Browser("name:=Browser Name").Page("title:=Page Title")```
 
   b. Initialize the eyes Object:
       ' Create Eyes Object
-      Set eyes = eyes_factory(current_page_reference)
+      ```Set eyes = eyes_factory(current_page_reference)```
   
   c. Open Eyes connection:
       ' Open Eyes
-      eyes.open_eye()
+      ```eyes.open_eye()```
   
   d. Call the Eyes check commands on eyes object:
       ' Execute check full screen on current page
-      Set result = eyes.check_full_screen("Landing Page","Strict")
+      ```Set result = eyes.check_full_screen("Landing Page","Strict")```
   
   e. Eyes connection will automatically close when the eyes object is destroyed.
