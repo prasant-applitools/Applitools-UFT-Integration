@@ -1,0 +1,62 @@
+<Environment>
+    <Variable>
+        <!--APPLITOOLS Runner Type HERE-->
+        <Name>Applitools_RUNNER</Name>
+        <Value>classic</Value>  <!-- Runner valid options: classic, vg-->
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS API KEY HERE-->
+        <Name>Applitools_API_KEY</Name>
+        <Value><APPLITOOLS_API></Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS APP NAME HERE-->
+        <Name>Applitools_APP_NAME</Name>
+        <Value>UFT_POC</Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS EYE OPEN TIMEOUT IN MS HERE-->
+        <Name>Applitools_EYE_OPEN_TIMEOUT</Name>
+        <Value>60000</Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS EYE OPEN TIMEOUT IN MS HERE-->
+        <Name>Applitools_BATCH_NAME</Name>
+        <Value>UFT POC</Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS EYE OPEN TIMEOUT IN MS HERE-->
+        <Name>Applitools_BATCH_ID</Name>
+        <Value>12</Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS EYE OPEN TIMEOUT IN MS HERE-->
+        <Name>Applitools_MAX_CONCURRENCY</Name>
+        <Value>10</Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS EYE OPEN TIMEOUT IN MS HERE-->
+        <Name>Applitools_EYES_SERVER_URL</Name>
+        <Value>https://eyes.applitools.com/</Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS EYE Break Point Options HERE-->
+        <Name>Applitools_BREAKPOINT_LAYOUT</Name>
+        <Value>true</Value>
+    </Variable>
+    <Variable>
+        <!--APPLITOOLS EYE Local Browser View Port HERE-->
+        <Name>Applitools_LOCAL_VIEW_PORT</Name>
+        <Value>{width: 800, height: 600}</Value> <!-- JSON representing the view port size: Example: {width: 800, height: 600}-->
+    </Variable>
+
+    <!-- <Variable>
+        <!--APPLITOOLS EYE Browser settings HERE-->
+        <!--Applicable if Runner type is vg -->
+        <Name>Applitools_BROWSER_CONFIG</Name>
+        <Value>[{ name: 'chrome', width: 1024, height: 800 },{ name: 'safari', width: 1024, height: 800 },{deviceName:'iPhone X',iosVersion:'latest',screenOrientation:'portrait'},{deviceName:'iPhone 11 Pro',iosVersion:'latest-1',screenOrientation:'landscape'},{deviceName:'Pixel 4',screenOrientation:'portrait'},{deviceName:'Pixel 4',screenOrientation:'landscape'}]</Value>
+    </Variable> -->
+
+    
+   
+</Environment>

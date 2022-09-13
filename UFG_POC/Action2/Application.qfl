@@ -1,0 +1,12 @@
+﻿Function check_and_navigate_to_screen(eyes, page_name, next_page_locator)
+
+	Set current_page_reference = Browser("Corporate Communication").Page(page_name)
+	Set eyes.set_page_reference = current_page_reference
+	current_page_reference.RunScript("document.getElementById('ot-sdk-btn-floating').style = 'display:none';")
+	
+	Set result = eyes.check_full_screen(page_name,"Strict")
+	
+	current_page_reference.Link(next_page_locator).Click
+	current_page_reference.Sync
+	current_page_reference.RunScript("document.getElementById('ot-sdk-btn-floating').style = 'display:none';")
+End Function
