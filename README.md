@@ -5,11 +5,11 @@ The important files for integration are :
 
   a. **applitools_eyes.vbs:**
       Contains the wrapper methods around the Applitools Browser extension object.
-      Location: <Project Base Folder>/eyes/
+      Location: [Project Base Folder/eyes/](https://github.com/prasant-applitools/Applitools-UFT-Integration/blob/main/UFG_POC/eyes/applitools_eyes.vbs)
       
   b. **Applitools_Environment_Variables.xml**
       Contains the Applitools related metadata like, cloud url, Batch details etc.
-      Location: <Project Base Folder>/eyes/
+      Location: [Project Base Folder/eyes/](https://github.com/prasant-applitools/Applitools-UFT-Integration/blob/main/UFG_POC/eyes/Applitools_Environment_Variables.xml)
   
   **Usage Instruction:**
   
