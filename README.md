@@ -1,7 +1,7 @@
 # Applitools-UFT-Integration
 UFT Integration using Applitools Browser extension
 
-The important files for integration are :
+Important files for integration are :
 
   a. **applitools_eyes.vbs:**
       Contains the wrapper methods around the Applitools Browser extension object.
